@@ -1,0 +1,36 @@
+{
+    "name": "kammadata/api-scaffold",
+    "description": "Slim Framework v4 PHP API scaffolding library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gary Gale",
+            "email": "gary@kammadata.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "slim",
+        "api",
+        "framework",
+        "kamma"
+    ],
+    "homepage": "https://github.com/KammaData/api-scaffold",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "hello@kammadata.com",
+        "issues": "https://github.com/KammaData/api-scaffold/issues"
+    },
+    "require": {
+        "monolog/monolog": "^1.24",
+        "php": ">=7.1",
+        "php-di/php-di": "^6.0",
+        "slim/psr7": "^0.5",
+        "slim/slim": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "KammaData\\": "src/"
+        }
+    }
+}
