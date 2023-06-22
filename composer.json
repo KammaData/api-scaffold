@@ -3,10 +3,10 @@
     "description": "A Slim Framework skeleton application for rapid development",
     "require": {
         "php": ">=8.0",
-        "monolog/monolog": "^2.5",
-        "php-di/php-di": "^6.4",
-        "slim/slim": "^4.10",
-        "slim/psr7": "^1.5"
+        "monolog/monolog": "^3.4",
+        "php-di/php-di": "^7.0",
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6"
     },
     "autoload": {
         "psr-4": {
